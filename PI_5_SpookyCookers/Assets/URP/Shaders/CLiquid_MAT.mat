@@ -73,6 +73,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ParallaxOcclusionMapping_c44c00408f7543afa24a6d9448d3e192_Heightmap_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_23787810753c4adf89d4e00b1ef351af_Texture_1:
         m_Texture: {fileID: 2800000, guid: ee4682630105dbc4abbe50e73cf79280, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -114,6 +118,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _FillAmmount: 1
     - _FresnelMultiplier: 3
     - _GlossMapScale: 0
     - _Glossiness: 0
