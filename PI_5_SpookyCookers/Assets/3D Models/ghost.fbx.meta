@@ -1,16 +1,11 @@
 fileFormatVersion: 2
-guid: 1f47d380dc2030d40bc25118632521bc
+guid: 4bf9ffd7415060d488757f84bf70b810
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CauldronUV
-    second: {fileID: 2100000, guid: f893d6bf98a061248a756e418115d619, type: 2}
+  externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
