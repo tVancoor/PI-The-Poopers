@@ -115,7 +115,7 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FireDetail: 12.7
-    - _FirePower: 0.308
+    - _FirePower: 0.229
     - _FireThreshold: -0.602
     - _FireThresholdDOWN: -0.77
     - _FireThresholdUP: -0.95
