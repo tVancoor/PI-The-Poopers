@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7940237821800075720}
   - component: {fileID: 1444508993300998208}
   m_Layer: 0
-  m_Name: Ingred
+  m_Name: PaoAssado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16b6c829ba465747a52d73895d20c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: 0a629a1b8ad3c1f489c48b1f19084d91, type: 2}
+  kitchenObjectSO: {fileID: 11400000, guid: 70fb4cc4deab49141b1b535853c148fb, type: 2}
 --- !u!1 &3851658868858851856
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 95f6440f471d355488feeb71ac356d8b, type: 2}
+  - {fileID: 2100000, guid: 30a8fedfae697ca4f94f68448b96bdf5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
