@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3731afe6b14bc6546bf5619f64161a81, type: 3}
+  m_Name: PaoGluRouge
+  m_EditorClassIdentifier: 
+  kitchenObjectSOList:
+  - {fileID: 11400000, guid: 70fb4cc4deab49141b1b535853c148fb, type: 2}
+  - {fileID: 11400000, guid: ab6347782792d5f45a6d1699ee7f3dbb, type: 2}
+  recipeName: PaoGluRouge
