@@ -3,9 +3,14 @@ guid: 8b6ce605091a77e44b5e56c0c18c7829
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sala_TEX
+    second: {fileID: 2100000, guid: 8b1acc16a60a94642a8cf0da5b1b0821, type: 2}
   materials:
-    materialImportMode: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -88,7 +93,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1.9699999
+    globalScale: 197
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
