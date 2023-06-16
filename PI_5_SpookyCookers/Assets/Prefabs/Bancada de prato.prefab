@@ -1,5 +1,171 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &385924745232279148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1013525619334069462}
+  - component: {fileID: 4161079468886406003}
+  - component: {fileID: 2187598173910190009}
+  m_Layer: 0
+  m_Name: Prato raso (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1013525619334069462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385924745232279148}
+  m_LocalRotation: {x: 0.017315397, y: -0, z: -0, w: 0.9998501}
+  m_LocalPosition: {x: 0, y: 3.303, z: -0.026999995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5772086292854701518}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 1.984, y: 0, z: 0}
+--- !u!33 &4161079468886406003
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385924745232279148}
+  m_Mesh: {fileID: 3873893032077001749, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
+--- !u!23 &2187598173910190009
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385924745232279148}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &887896331733566895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 511617805421534997}
+  - component: {fileID: 3510127356472021168}
+  - component: {fileID: 1680561133288006778}
+  m_Layer: 0
+  m_Name: Prato raso (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &511617805421534997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887896331733566895}
+  m_LocalRotation: {x: -0.013865965, y: -0, z: -0, w: 0.9999039}
+  m_LocalPosition: {x: 0, y: 3.233, z: 0.137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5772086292854701518}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -1.589, y: 0, z: 0}
+--- !u!33 &3510127356472021168
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887896331733566895}
+  m_Mesh: {fileID: 3873893032077001749, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
+--- !u!23 &1680561133288006778
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887896331733566895}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1360997247649750318
 GameObject:
   m_ObjectHideFlags: 0
@@ -48,6 +214,89 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4380007, y: 3.027891, z: 3}
   m_Center: {x: 0.00000047683716, y: 1.5139455, z: 0}
+--- !u!1 &2460098872503438708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2985840714729412558}
+  - component: {fileID: 2215786247481677931}
+  - component: {fileID: 4117691472235965601}
+  m_Layer: 0
+  m_Name: Prato raso (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2985840714729412558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460098872503438708}
+  m_LocalRotation: {x: 0.041111432, y: -0, z: -0, w: 0.99915457}
+  m_LocalPosition: {x: 0, y: 3.537, z: -0.198}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5772086292854701518}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 4.712, y: 0, z: 0}
+--- !u!33 &2215786247481677931
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460098872503438708}
+  m_Mesh: {fileID: 3873893032077001749, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
+--- !u!23 &4117691472235965601
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460098872503438708}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2762973332674078621
 GameObject:
   m_ObjectHideFlags: 0
@@ -85,6 +334,172 @@ Transform:
   m_Father: {fileID: 9126513651953583592}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6986488461992244339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7763975486788202185}
+  - component: {fileID: 6634071651343851884}
+  - component: {fileID: 8931766491972769190}
+  m_Layer: 0
+  m_Name: Prato raso
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7763975486788202185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6986488461992244339}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5772086292854701518}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6634071651343851884
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6986488461992244339}
+  m_Mesh: {fileID: 3873893032077001749, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
+--- !u!23 &8931766491972769190
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6986488461992244339}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7167091232175583702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7511246804660530028}
+  - component: {fileID: 6886730304272934089}
+  - component: {fileID: 8680235216394768387}
+  m_Layer: 0
+  m_Name: Prato fundo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7511246804660530028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7167091232175583702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5772086292854701518}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6886730304272934089
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7167091232175583702}
+  m_Mesh: {fileID: -469912937724542680, guid: fdda5e424d4819d498534d854d291584, type: 3}
+--- !u!23 &8680235216394768387
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7167091232175583702}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7909472807973907687
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,204 +531,89 @@ Transform:
   m_Father: {fileID: 9126513651953583592}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &41404118481713406
-PrefabInstance:
+--- !u!1 &8577974919811305185
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5772086292854701518}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.233
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.137
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9999039
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.013865965
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.589
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
-    - target: {fileID: 919132149155446097, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_Name
-      value: Prato raso (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
---- !u!4 &511617805421534997 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-  m_PrefabInstance: {fileID: 41404118481713406}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &692003289022552893
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8953373836756145243}
+  - component: {fileID: 5471624525306092542}
+  - component: {fileID: 7785574550875385652}
+  m_Layer: 0
+  m_Name: Prato fundo (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8953373836756145243
+Transform:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5772086292854701518}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.303
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.026999995
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9998501
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.017315397
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.984
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
-    - target: {fileID: 919132149155446097, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_Name
-      value: Prato raso (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
---- !u!4 &1013525619334069462 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-  m_PrefabInstance: {fileID: 692003289022552893}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &3379229356150042661
-PrefabInstance:
+  m_GameObject: {fileID: 8577974919811305185}
+  m_LocalRotation: {x: -0.026153248, y: -0, z: -0, w: 0.999658}
+  m_LocalPosition: {x: 0, y: 3.343, z: 0.14500001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5772086292854701518}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -2.997, y: 0, z: 0}
+--- !u!33 &5471624525306092542
+MeshFilter:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5772086292854701518}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.537
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.198
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99915457
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.041111432
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 4.712
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
-    - target: {fileID: 919132149155446097, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_Name
-      value: Prato raso (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
---- !u!4 &2985840714729412558 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-  m_PrefabInstance: {fileID: 3379229356150042661}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577974919811305185}
+  m_Mesh: {fileID: -469912937724542680, guid: fdda5e424d4819d498534d854d291584, type: 3}
+--- !u!23 &7785574550875385652
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577974919811305185}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &4133307181368477344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -365,6 +665,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3192943890574236195, guid: 784dd3c7bf921c340aacbc3e081299a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e14ae5a575c994389d31ea658e2d8c, type: 2}
     - target: {fileID: 919132149155446097, guid: 784dd3c7bf921c340aacbc3e081299a7, type: 3}
       propertyPath: m_Name
       value: Bancada_Mesh
@@ -375,202 +679,4 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 784dd3c7bf921c340aacbc3e081299a7, type: 3}
   m_PrefabInstance: {fileID: 4133307181368477344}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &7797305372286683426
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5772086292854701518}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
-    - target: {fileID: 919132149155446097, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-      propertyPath: m_Name
-      value: Prato raso
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
---- !u!4 &7763975486788202185 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ecf1a53988be8e43a7bd02152284f81, type: 3}
-  m_PrefabInstance: {fileID: 7797305372286683426}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &8050173688087661703
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5772086292854701518}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.04
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
-    - target: {fileID: 919132149155446097, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_Name
-      value: Prato fundo
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdda5e424d4819d498534d854d291584, type: 3}
---- !u!4 &7511246804660530028 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-  m_PrefabInstance: {fileID: 8050173688087661703}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &8920082114726933424
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5772086292854701518}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.343
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.14500001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.999658
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.026153248
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.997
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ba143df50aa836e47bb77f803b790e70, type: 2}
-    - target: {fileID: 919132149155446097, guid: fdda5e424d4819d498534d854d291584, type: 3}
-      propertyPath: m_Name
-      value: Prato fundo (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdda5e424d4819d498534d854d291584, type: 3}
---- !u!4 &8953373836756145243 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fdda5e424d4819d498534d854d291584, type: 3}
-  m_PrefabInstance: {fileID: 8920082114726933424}
   m_PrefabAsset: {fileID: 0}

@@ -72,7 +72,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7909472807973907687}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 3.127, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86,6 +86,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9126513651953583592}
     m_Modifications:
+    - target: {fileID: -9207952367972861917, guid: c7f034c565096e445ab093c89cadd773, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e14ae5a575c994389d31ea658e2d8c, type: 2}
     - target: {fileID: -8679921383154817045, guid: c7f034c565096e445ab093c89cadd773, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -96,7 +100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7f034c565096e445ab093c89cadd773, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 3.013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7f034c565096e445ab093c89cadd773, type: 3}
       propertyPath: m_LocalPosition.z
@@ -130,10 +134,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8271857346516362580, guid: c7f034c565096e445ab093c89cadd773, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8271857346516362580, guid: c7f034c565096e445ab093c89cadd773, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e14ae5a575c994389d31ea658e2d8c, type: 2}
+    - target: {fileID: -8271857346516362580, guid: c7f034c565096e445ab093c89cadd773, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: -7511558181221131132, guid: c7f034c565096e445ab093c89cadd773, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 100d59ad034abf241af2c0fc7951fcfc, type: 2}
+    - target: {fileID: 330806664870591140, guid: c7f034c565096e445ab093c89cadd773, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e14ae5a575c994389d31ea658e2d8c, type: 2}
     - target: {fileID: 919132149155446097, guid: c7f034c565096e445ab093c89cadd773, type: 3}
       propertyPath: m_Name
       value: Tabua
@@ -196,6 +216,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3192943890574236195, guid: 784dd3c7bf921c340aacbc3e081299a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e14ae5a575c994389d31ea658e2d8c, type: 2}
     - target: {fileID: 919132149155446097, guid: 784dd3c7bf921c340aacbc3e081299a7, type: 3}
       propertyPath: m_Name
       value: Bancada_Mesh

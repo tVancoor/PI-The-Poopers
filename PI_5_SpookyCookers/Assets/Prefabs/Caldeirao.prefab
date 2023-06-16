@@ -254,6 +254,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7739468458469556275, guid: 1f47d380dc2030d40bc25118632521bc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e14ae5a575c994389d31ea658e2d8c, type: 2}
     - target: {fileID: -7511558181221131132, guid: 1f47d380dc2030d40bc25118632521bc, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -262,9 +266,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f893d6bf98a061248a756e418115d619, type: 2}
+    - target: {fileID: -4259039450140780508, guid: 1f47d380dc2030d40bc25118632521bc, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f47d380dc2030d40bc25118632521bc, type: 3}
       propertyPath: m_Name
       value: Caldeirao
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090729033357987754, guid: 1f47d380dc2030d40bc25118632521bc, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f47d380dc2030d40bc25118632521bc, type: 3}
