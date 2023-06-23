@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ghost_MAT
+  m_Name: GhostV1_MAT
   m_Shader: {fileID: -6465566751694194690, guid: 9f6d0355047787944ab5b208f3c57a7f, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -78,9 +78,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: -3.45
+    - _Alpha: 0.33
     - _AlphaClip: 0
-    - _AlphaSmothness: 5
+    - _AlphaSmothness: 3.35
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
