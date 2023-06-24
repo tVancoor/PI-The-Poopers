@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bfa94eecf0d3d4faf629eaee7b6729, type: 3}
+  m_Name: PaoDeFungos
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8274505170263739480, guid: 9ad638234bc5fe541b4b62cce393bbc8, type: 3}
+  sprite: {fileID: -334444073, guid: 2bb5ff05ad2e8c449bc052a5906cdf59, type: 3}
+  objectName: "P\xE3o Mofado"

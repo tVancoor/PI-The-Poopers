@@ -1,10 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class BancadaBase : MonoBehaviour, IKitchenObjectParent
+public class BancadaBase : NetworkBehaviour, IKitchenObjectParent
 {
-   
+    //public static event EventHandler OnAnyObjectPlacedHere;
+    public static void ResetStaticData()
+    {
+        //OnAnyObjectPlacedHere = null;
+    }
+
     [SerializeField] private Transform topoDaBancada;
     
     private KitchenObject kitchenObject;
@@ -42,5 +49,10 @@ public class BancadaBase : MonoBehaviour, IKitchenObjectParent
     public bool HasKitchenObject()
     {
         return kitchenObject != null;
+    }
+
+    public NetworkObject GetNetworkObject()
+    {
+        return NetworkObject;
     }
 }

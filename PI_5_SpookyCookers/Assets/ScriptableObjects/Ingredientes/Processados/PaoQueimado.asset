@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15bfa94eecf0d3d4faf629eaee7b6729, type: 3}
   m_Name: PaoQueimado
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7940237821800075720, guid: 2d6bb7dbcbc78b4409b29670a8ed89fc, type: 3}
+  prefab: {fileID: 89504387082489077, guid: fedcf3dbbead5734fb77e7ac720a1786, type: 3}
   sprite: {fileID: 0}
   objectName: "P\xE3o Queimado"

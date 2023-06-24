@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Cenas/FaseTutorial.unity
-    guid: ab2fba262a6abee44bf79835429dd058
+    path: Assets/Cenas/Menu.unity
+    guid: 1b93a80dab0fc9b4499c9a42270a128c
+  - enabled: 1
+    path: Assets/Cenas/Loading.unity
+    guid: 927e5d5c6d7b16a439439d6a6dc688d0
+  - enabled: 1
+    path: Assets/Cenas/Gameplay.unity
+    guid: a199c7bc1d8141e4fa9e042f1aef1e4a
   m_configObjects: {}

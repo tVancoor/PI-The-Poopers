@@ -9,7 +9,22 @@ public class SelecionadaVisual : MonoBehaviour
     [SerializeField] private GameObject[] visualGameObjectArray;
     private void Start()
     {
-        PlayerTeste.Instance.OnSelectedCounterChanged += PlayerTeste_OnSelectedCounterChanged;
+        if (PlayerTeste.LocalInstance != null)
+        {
+            PlayerTeste.LocalInstance.OnSelectedCounterChanged += PlayerTeste_OnSelectedCounterChanged;
+        } else
+        {
+            PlayerTeste.OnAnyPlayerSpawned += PlayerTeste_OnAnyPlayerSpawned;
+        }
+        
+    }
+    private void PlayerTeste_OnAnyPlayerSpawned(object sender, EventArgs e)
+    {
+        if (PlayerTeste.LocalInstance != null)
+        {
+            PlayerTeste.LocalInstance.OnSelectedCounterChanged -= PlayerTeste_OnSelectedCounterChanged;
+            PlayerTeste.LocalInstance.OnSelectedCounterChanged += PlayerTeste_OnSelectedCounterChanged;
+        }
     }
 
     private void PlayerTeste_OnSelectedCounterChanged(object sender, PlayerTeste.OnSelectedCounterChangedEventArgs e)
@@ -29,8 +44,7 @@ public class SelecionadaVisual : MonoBehaviour
         foreach (GameObject visualGameObject in visualGameObjectArray)
         {
             visualGameObject.SetActive(true);
-        }
-        
+        }  
     }
 
     private void Hide()

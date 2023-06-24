@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15bfa94eecf0d3d4faf629eaee7b6729, type: 3}
   m_Name: RaizesCortadas
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1382588995150170129, guid: f066b089136a83049a7f97ab723aa9c9, type: 3}
-  sprite: {fileID: 21300000, guid: ea6c503922ae1e5428ee6530b4e786c5, type: 3}
+  prefab: {fileID: 3560616290169362094, guid: f9af8d185b8877b48a62f4b75720d747, type: 3}
+  sprite: {fileID: 1468126413, guid: cf6622084a9ef4741a9b690195d8a4cf, type: 3}
   objectName: Raiz Cortada

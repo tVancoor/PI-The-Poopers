@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7940237821800075720}
   - component: {fileID: 1444508993300998208}
+  - component: {fileID: -6438353872829285088}
+  - component: {fileID: 4595376076738353459}
   m_Layer: 0
   m_Name: PaoQueimado
   m_TagString: Untagged
@@ -46,6 +48,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kitchenObjectSO: {fileID: 11400000, guid: a6a4f436d33fef34eac04ddffb006d55, type: 2}
+--- !u!114 &-6438353872829285088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638852560739481532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &4595376076738353459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638852560739481532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea9fdf68a489ae439df439aa3b47fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3851658868858851856
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +89,7 @@ GameObject:
   - component: {fileID: 6525646553629487265}
   - component: {fileID: 7231561557105369842}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: PaoQueimadoVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

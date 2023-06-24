@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PaoFloresta
   m_EditorClassIdentifier: 
   kitchenObjectSOList:
-  - {fileID: 11400000, guid: 70fb4cc4deab49141b1b535853c148fb, type: 2}
   - {fileID: 11400000, guid: 33d277114471c8443a6cd6f5667f1c51, type: 2}
-  recipeName: PaoFloresta
+  - {fileID: 11400000, guid: 70fb4cc4deab49141b1b535853c148fb, type: 2}
+  recipeName: "P\xE3o Especial"

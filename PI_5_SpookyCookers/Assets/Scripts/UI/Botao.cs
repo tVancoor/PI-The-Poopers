@@ -8,7 +8,7 @@ public class Botao : MonoBehaviour
     // Start is called before the first frame update
     public void CarregarJogo()
     {
-        SceneManager.LoadScene("FaseTutorial");
+        SceneManager.LoadScene("Gameplay");
     }
 
     // Update is called once per frame

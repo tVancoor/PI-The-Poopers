@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0696cc5dafb884e87033da6ac80882, type: 3}
   m_Name: PaoAssado
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: abbeb2fb05ec0604fb3c5fb73c46f19a, type: 2}
+  input: {fileID: 11400000, guid: 6a0ed8150b509d14eb8c9ced2cabddfe, type: 2}
   output: {fileID: 11400000, guid: 70fb4cc4deab49141b1b535853c148fb, type: 2}
-  fryingTimerMax: 3
+  fryingTimerMax: 4

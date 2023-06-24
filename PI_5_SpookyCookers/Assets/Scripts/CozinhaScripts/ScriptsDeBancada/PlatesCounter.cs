@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Unity.Netcode;
 
 public class PlatesCounter : BancadaBase
 {
@@ -10,6 +11,8 @@ public class PlatesCounter : BancadaBase
 
 
     [SerializeField] private KitchenObjectSO plateKitchenObjectSO;
+
+
     private float spawnPlateTimer;
     private float spawnPlateTimerMax = 4f;
     private int plateSpawnedAmount;
@@ -17,18 +20,34 @@ public class PlatesCounter : BancadaBase
 
     private void Update()
     {
+        if (!IsServer)
+        {
+            return;
+        }
         spawnPlateTimer += Time.deltaTime;
         if (spawnPlateTimer > spawnPlateTimerMax)
         {
             spawnPlateTimer = 0f;
 
-            if (plateSpawnedAmount < plateSpawnedAmountMax)
+            if (KitchenManager.Instance.IsGamePlaying() && plateSpawnedAmount < plateSpawnedAmountMax)
             {
-                plateSpawnedAmount++;
-
-                OnPlateSpawned?.Invoke(this, EventArgs.Empty);
+                SpawnPlateServerRpc();
             }
         }
+    }
+
+    [ServerRpc]
+    private void SpawnPlateServerRpc()
+    {
+        SpawnPlateClientRpc();
+    }
+
+    [ClientRpc]
+    private void SpawnPlateClientRpc()
+    {
+        plateSpawnedAmount++;
+
+        OnPlateSpawned?.Invoke(this, EventArgs.Empty);
     }
 
     public override void Interact(PlayerTeste player)
@@ -37,12 +56,22 @@ public class PlatesCounter : BancadaBase
         {
             if (plateSpawnedAmount > 0)
             {
-                plateSpawnedAmount--;
+                KitchenObject.SpawnKitchenObject(plateKitchenObjectSO, player);
 
-                KitchenObject.SpawnKitchenObjectSO(plateKitchenObjectSO, player);
-
-                OnPlateRemoved?.Invoke(this, EventArgs.Empty);
+                InteractLogicClientRpc();
             }
         }
+    }
+    [ServerRpc(RequireOwnership = false)]
+    private void InteractLogicServerRpc()
+    {
+        InteractLogicClientRpc();
+    }
+    
+    [ClientRpc]
+    private void InteractLogicClientRpc()
+    {
+        plateSpawnedAmount--;
+        OnPlateRemoved?.Invoke(this, EventArgs.Empty);
     }
 }
